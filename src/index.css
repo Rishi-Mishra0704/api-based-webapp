@@ -57,6 +57,7 @@ body {
   }
   
  .like-button {
+  position: relative;
     background-color: #fff;
     border: 1px solid #ccc;
     color: #333;
@@ -64,6 +65,20 @@ body {
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
+  }
+  
+  .like-button .badge {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px;
+    min-width: 20px;
+    text-align: center;
   }
   
   li .like-button:hover {
