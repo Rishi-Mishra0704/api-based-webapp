@@ -56,7 +56,7 @@ body {
     margin-top: 10px;
   }
   
-  li .like-button {
+ .like-button {
     background-color: #fff;
     border: 1px solid #ccc;
     color: #333;
